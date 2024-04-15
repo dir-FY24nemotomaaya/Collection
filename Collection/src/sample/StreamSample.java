@@ -7,7 +7,7 @@ import java.util.stream.Collectors;
 public class StreamSample {
 
     public static void main(String[] args) {
-        List<String> places = new ArrayList<>();
+        List<String> places = new ArrayList<>();  //コレクションからストリームオブジェクトを取得
 
         // 要素の追加
         places.add("アイスランド");
